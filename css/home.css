@@ -1,0 +1,164 @@
+p{
+  font-family: Montserrat;
+  margin-top:0;
+  margin-bottom:0;
+  display:inline-block;
+}
+/*TITLES*/
+.title{
+  font-size:50px;
+  font-weight:bold;
+  margin-left:10px;
+  margin-right:10px;
+  text-align: center;
+  padding-left: 30px;
+
+  
+}
+.title-div{
+  background-color:rgba(187, 46, 238, 0.9);
+  display:grid;
+  padding-right: 50px;
+  /*padding-left: 56px;*/
+  margin-bottom:600px;
+  grid-template-columns: 400px;
+  margin-left:50px;
+
+}
+
+.Gloria{
+  font-size:50px;
+  justify-content: center;
+  font-weight:bold;
+  color: rgb(128, 17, 213);
+}
+
+
+
+/**/
+.me-pic{
+  display:flex; 
+  align-items: center;
+  justify-content: center;
+  width:350px;
+ 
+
+}
+
+
+.main-grid{
+  background-color:rgba(234, 104, 243, 0.3);
+  margin-top: 110px;
+  display:grid;
+  height: 700px;
+  grid-template-columns: 600px 500px;
+  grid-gap: 20px;
+  
+}
+.div-1-pic{
+  margin-left:30px;
+  height:700px;
+  
+}
+.div-2{
+  display:grid;
+  margin-right:50px;
+  height:700px;
+  max-width: 500px;
+  
+}
+
+.caption{
+  background-color:rgba(41, 125, 243);
+  font-family: Poppins;
+  font-size:20px;
+  margin-top:10px;
+  color:black;
+  text-align:justify;
+}
+.bio-div{
+  margin-top:-550px;
+  margin-left:50px;
+  width: 490px;
+  height:460px;
+  background-color:rgba(187, 46, 238, 0.9);
+  
+
+ 
+ 
+}
+.bio{
+  padding-top:10px;
+  font-family: Poppins;
+  padding-left: 10px;
+  font-size:18px;
+  max-width:460px;
+  text-align:justify;
+  margin-bottom: 10px;
+  line-height: 28px;
+
+ 
+}
+.info-box{
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 100px;
+
+}
+.Github{
+    margin-left:200px;
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    background: rgba(255,255,255,0.5);
+    text-align: center;
+    padding-top:0.2px;
+    padding-bottom:0.5px;
+    color: white;
+    font-weight: bold;
+    line-height: 25px;
+    border-radius: 50px;
+    transition: all 0.2s;
+}
+
+.Github:hover{
+  cursor: pointer;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
+  background-color: #238636;
+}
+
+.Github:active{
+  background-color: limegreen;
+
+}
+
+.Linkedin{
+  margin-left: 40px;
+  display: block;
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  background: rgba(255,255,255,0.5);
+  text-align: center;
+  padding-top:0.2px;
+  padding-bottom:0.5px;
+  color: white;
+  font-weight: bold;
+  line-height: 25px;
+  border-radius: 50px;
+  border-style:none;
+  transition: all 0.2s;
+}
+
+.Linkedin:hover{
+  cursor:pointer;
+  background-color: #0072b1;
+  box-shadow: 5px 10px 10px rgba(0,0,0,0.7);
+
+}
+.Linkedin:active{
+  background-color:rgb(2, 162, 220)
+}
+  

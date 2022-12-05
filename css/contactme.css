@@ -1,0 +1,80 @@
+
+h1{
+  text-align:center;
+  margin-top:50px;
+}
+form{
+  display:flex;
+  width:800px;
+  flex-direction:column;
+  margin:auto;
+  background-color:rgba(255,255,255,0.6);
+  place-items:center;
+}
+input{
+  height:50px;
+  width:300px;
+  background: transparent; 
+  border:1px solid black;
+  color: black;
+  font-family: Poppins;
+}
+input::placeholder {
+  color: grey;
+  font-size: 1.2em;
+}
+
+
+textarea{
+  display:flex;
+  margin-top:10px;
+  height:600px;
+  width:700px;
+  background: transparent;
+  font-family: Montserrat;
+  border:1px solid black;
+  color: black;
+  font-size: 18px;
+  line-height: 25px;
+
+}
+main{
+  height:100vh;
+  font-family:Montserrat;
+}
+
+.name-email-container{
+  display:flex;
+  padding-top:50px;
+  padding-bottom:0;
+  width:800px;
+  flex-direction:row;
+  column-gap: 30px;
+  justify-content: space-evenly;
+}
+
+.sub-button{
+  place-items:left;
+  padding: 15px;
+  margin-right:-600px;
+  font-family:Poppins;
+  border-color: rgba(242, 3, 255, 0.5);
+  border-style: none;
+  border-width: 2px;
+  border-radius:4px;
+  background-color:rgba(242, 3, 255, 0.5);
+  width: 90px;
+}
+
+.sub:hover{
+  background-color:blueviolet;
+  color: white;
+  transition: all 0.1s;
+  box-shadow: 5px 5px 10px rgba(0,0,0,0.7);
+}
+
+.sub:active{
+  background-color:rgb(63, 0, 123);
+  color: white;
+}
+
