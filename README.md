@@ -1,5 +1,3 @@
 # Personal-Website
 
-Contact form bug:
- - Contact form works (pressing submit will send an email to me). However, you will be brought upon a 405 error, although the email was successfully sent. 
- Will try to fix bug ASAP
+Congrats! If you found this repository, this is my old, nasty, and crusty website. Visit for giggles. No judgment, though.
